@@ -13,8 +13,10 @@ github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc/go.mod h1:LOuy
 github.com/alecthomas/units v0.0.0-20151022065526-2efee857e7cf/go.mod h1:ybxpYRFXyAe+OPACYpWeL0wqObRcbAqCMya13uyzqw0=
 github.com/andrewlunde/theta-protocol-ledger v0.1.0 h1:cGaec0ZWtvOqO9g4kGG1O/jVvLzSLYfpGrpKpmrHI3k=
 github.com/andrewlunde/theta-protocol-ledger v0.1.0/go.mod h1:tpkVkJSz/SZq8USGq9lJfD+uo6PoTBmz2eMea5G+YkI=
-github.com/andrewlunde/thetaoffchaingo_common v0.1.0 h1:FvwsRYSp4h1il2FirZlN69nH268ODR8/HjD00hr/Fe8=
-github.com/andrewlunde/thetaoffchaingo_common v0.1.0/go.mod h1:PpMQbI0L6fKkQ7iWbcYqXnCZl1RMgiFCPpculs/xyMM=
+github.com/andrewlunde/thetaoffchaingo_common v0.1.1 h1:8pbtyCoReOZ1raw/9q3yhxXT7FRRwQKKDzKvtcQbECc=
+github.com/andrewlunde/thetaoffchaingo_common v0.1.1/go.mod h1:PpMQbI0L6fKkQ7iWbcYqXnCZl1RMgiFCPpculs/xyMM=
+github.com/andrewlunde/thetaoffchaingo_rpc v0.1.1 h1:YYw5fbSI5QHek1bDxne4Kq0GZfsGmW/Lpg2pENdj+To=
+github.com/andrewlunde/thetaoffchaingo_rpc v0.1.1/go.mod h1:NFWyosd2rxMOOPW2ixJIzeHrAizJr/DAmqmk8JOZ5Kw=
 github.com/andrewlunde/thetaoffchaingo_utils v0.1.0 h1:sz/VTIeQBTJig9ylgN3f+mjqI6W6D3T1EG96f7tSZZg=
 github.com/andrewlunde/thetaoffchaingo_utils v0.1.0/go.mod h1:ohcSrtNK/1Hqsl8elwdAJS3ymB/MwOPX4F+IL/uUjWc=
 github.com/armon/consul-api v0.0.0-20180202201655-eb2c6b5be1b6/go.mod h1:grANhF5doyWs3UAsr3K4I6qtAmlQcZDesFNEHPZAzj8=
