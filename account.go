@@ -4,10 +4,13 @@ import (
 	// "errors"
 	// "math/big"
 	// "strconv"
-    "fmt"
+    // "fmt"
 
 	"encoding/json"
 //	"fmt"
+
+	//"github.com/spf13/cobra"
+	"github.com/spf13/viper"
 
 	"github.com/thetatoken/theta/utils"
 	"github.com/thetatoken/theta/common"
@@ -16,8 +19,9 @@ import (
 	rpcc "github.com/ybbus/jsonrpc"
 )
 
-func Account(endpoint string, address string) {
-	client := rpcc.NewRPCClient(endpoint)
+func Account(address string) string {
+	
+	client := rpcc.NewRPCClient(viper.GetString("remoteRPCEndpoint"))
 
 	res, err := client.Call("theta.GetAccount", rpc.GetAccountArgs{
 		Address: address,
@@ -33,9 +37,9 @@ func Account(endpoint string, address string) {
 	if err != nil {
 		utils.Error("Failed to parse server response: %v\n%v\n", err, string(json))
 	}
-	fmt.Println(string(json))
-
-	fmt.Println("ep:" + endpoint + " addr:" + address)
+	// fmt.Println(string(json))
+	// fmt.Println("ep:" + endpoint + " addr:" + address)
+	return(string(json))
 }
 
 
