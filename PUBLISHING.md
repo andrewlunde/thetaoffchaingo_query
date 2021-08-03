@@ -12,7 +12,7 @@ go get github.com/andrewlunde/thetaoffchaingo_query@v0.2.0
 require github.com/thetatoken/query v0.0.0
 replace github.com/thetatoken/query v0.0.0 => github.com/andrewlunde/thetaoffchaingo_query v0.2.0
 
-...
+XXX
 
 ```
 
